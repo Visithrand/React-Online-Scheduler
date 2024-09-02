@@ -1,0 +1,103 @@
+/* src/Scheduler.css */
+
+.scheduler {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+body {
+  background-image: url('https://media.licdn.com/dms/image/C5612AQEjFgU3-f0K-Q/article-cover_image-shrink_600_2000/0/1619389997579?e=2147483647&v=beta&t=a8Y14YmW_rnZbsaAcvcCN3DbjOiDVjNUwNY-YDLRMA0');
+  background-size: cover;
+  background-position: centerbody ;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.scheduler-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.scheduler-input input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.scheduler-input button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scheduler-input button:hover {
+  background-color: #218838;
+}
+
+.scheduler-tasks {
+  margin-top: 20px;
+}
+
+.task {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task span:first-child {
+  font-weight: bold;
+}
